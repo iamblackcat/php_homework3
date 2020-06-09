@@ -6,7 +6,7 @@
 <body>
 	<script type="text/javascript" src="./scripts/checkInput.js"></script>
 	<h1 align="center">留言板</h1>
-	<form method="POST" name="form" onsubmit="return checkInput()" enctype="multipart/form-data">
+	<form action="deal.php" method="POST" name="form" onsubmit="return checkInput()" enctype="multipart/form-data">
 	<tr>
 		<td>姓名：</td>
 		<td><input type="text" name="uname" id="uname"></td>
